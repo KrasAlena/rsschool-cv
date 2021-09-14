@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./highlight/styles/xcode.min.css">
+	  <script src="./highlight/highlight.min.js"></script>
+	  <script>hljs.highlightAll();</script>
+    <script
+      src="https://kit.fontawesome.com/1bcd03d86e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Resume</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="left_side" id="left_side">
+        <div class="profileText">
+          <div class="imgBx">
+            <img src="./assets/profile_photo.jpg" alt="Profile photo" />
+          </div>
+          <div class="conect">
+            <div class="email conect_">
+              <div class="icon_conect"><a href="mailto:alena.krasinskiene@gmail.com"><i class="far fa-envelope"></i></a></div>
+              <div class="text_conect"><a href="mailto:alena.krasinskiene@gmail.com">alena.krasinskiene@gmail.com</a></div>
+            </div>
+          </div>
+        </div>
+        <h2 class="left_title">Alena Krasinskiene</h2>
+        <p class="position left_title">Web developer</p>
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#work">Work experience</a>
+            <a href="#education">Education</a>
+            <a href="#code">Code example</a>
+          </div>
+        </div>
+        <section class="contactInfo content">
+          <h3>Contact info</h3>
+          <ul>
+            <li>
+              <a href="http://linkedin.com/in/alenakrasinskiene">
+                <span class="icon"
+                  ><i class="fab fa-linkedin-in fa-lg"></i
+                ></span>
+                <span class="text" id="case1">Alena Krasinskiene</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/KrasAlena">
+                <span class="icon"><i class="fab fa-github fa-lg"></i></span>
+                <span class="text">github.com/KrasAlena</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-discord"></i></span>
+                <span class="text">Alena#7547(@KrasAlena)</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="languages content">
+          <h3>Languages</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fas fa-globe"></i></span>
+              <span class="text">Russian, Belorussian: native</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fas fa-globe"></i></span>
+              <span class="text">English: B1</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fas fa-globe"></i></span>
+              <span class="text">Lithuanian: A1</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fas fa-globe"></i></span>
+              <span class="text">Spanish: A1</span>
+            </li>
+          </ul>
+        </section>
+        <section class="skills content" id="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">HTML</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">CSS</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">JavaScript</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">Git</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">Bash</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">Atlassian Jira</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">MySQL</span>
+            </li>
+            <li>
+              <span class="icon"><i class="far fa-check-square"></i></span>
+              <span class="text">Figma</span>
+            </li>
+          </ul>
+        </section>
+        <section class="project content" id="projects">
+          <h3 class="project_title">Projects</h3>
+          <a 
+            id="my_project" target="_blank"
+            href="https://rolling-scopes-school.github.io/krasalena-JSFEPRESCHOOL/custom-video-player/"
+          >
+            <div class="project_image">
+              <img src="./assets/project_image.jpg" alt="">
+            </div>
+            <span class="player">Custom video player</span>
+            <span class="icon"><i class="far fa-caret-square-right"></i></span>
+          </a>
+        </section>
+      </div>
+
+      <div class="right_side" id="right_side">
+        <h2 class="right_title">Alena Krasinskiene</h2>
+        <p class="position right_title">Web developer</p>
+        <nav class="menu">
+					<ul class="menu__list">
+						<li><a href="#work" class="menu__link">Work experience</a></li>
+						<li><a href="#education" class="menu__link">Education</a></li>
+						<li><a href="#skills" class="menu__link">Skills</a></li>
+						<li><a href="#projects" class="menu__link">Projects</a></li>
+						<li><a href="#code" class="menu__link">Code example</a></li>
+					</ul>
+				</nav>
+        <section class="profile-summary">
+          <div class="section_title">
+            <h3>Profile summary</h3>
+          </div>
+          <p class="summary" id="example">
+            This ia a new page in my professional activity. But I have never
+            interrupted self-development and self-education. Now I am looking
+            for an opportunity to gain valuable experience in a team of
+            high-level professionals in the field of my interests who is ready
+            to invest in my professional growth and gain benefits from my honest
+            and diligent work.
+          </p>
+        </section>
+        <section class="jobs">
+          <div class="section_title">
+            <h3 id="work">Work experience</h3>
+          </div>
+          <div class="timeline-item" data-is="2007 - 2013">
+            <p class="period">2013 - 2018</p>
+            <p class="job_position">Project manager</p>
+            <p class="company">LLC "HALEKS", development company</p>
+            <ul>
+              <li>
+                - Working as the point of contact for the client throughout the
+                project, asking and answering questions as needed
+              </li>
+              <li>- Overseeing details regarding obtaining permits</li>
+              <li>
+                - Meeting with architects, clients and construction crew onsite
+              </li>
+              <li>
+                - Performing negotiations with vendors, suppliers and
+                subcontractors
+              </li>
+              <li>- Land and real estate consulting</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item" data-is="2007 - 2013">
+            <p class="job_position">GIS engineer / Land management engineer</p>
+            <p class="company">
+              Republican Design Institute for Land Management Belgiprozem
+            </p>
+            <ul>
+              <li>- Creation of land information systems</li>
+              <li>- Technical advice in the field of land management</li>
+              <li>- Preliminary approval of the location of the land plot</li>
+              <li>- Establishment and restoration of land boundaries</li>
+            </ul>
+          </div>
+        </section>
+        <section class="education" id="education">
+          <div class="section_title">
+            <h3>Education</h3>
+          </div>
+          <div class="box">
+            <div class="year_study">
+              <h4>2007 - 2011</h4>
+            </div>
+            <div class="university">
+              <p class="university_name">Belorussian State University</p>
+              <p>Faculty: Law<br />Specialty: Economical Law</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year_study">
+              <h4>2002 - 2007</h4>
+            </div>
+            <div class="university">
+              <p class="university_name">Belorussian State University</p>
+              <p>
+                Faculty: Geography<br />Specialty: Geographical information
+                systems
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="code" id="code">
+          <div class="section_title">
+            <h3>Code example</h3>
+          </div>
+          <details>
+            <summary>From Codwars</summary>
+            <pre><code class="javascript">function squareSum(numbers){
+return numbers.reduce((a, x) =>
+a + (x * x), 0);
+};</code></pre>
+          </details>
+        </section>
+        <section class="video">
+          <div class="section_title">
+            <h3>Video resume</h3>
+          </div>
+          <iframe src="https://www.youtube.com/embed/L0IUlgaC218" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <footer id="footer">
+          <a href="https://rs.school/js/">
+            <img src="./assets/rs_school_js.svg" alt="logo" class="logo" />
+          </a>
+          <p class="rights">© 2021, Alena Krasinskiene</p>
+        </footer>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
